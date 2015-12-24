@@ -1,7 +1,7 @@
 #sfvue 3    
 ----
 
-Django (1.8.7) with lots of pics/videos.
+Django (1.9) with lots of pics/videos.
 
 ##Version 3 features
 
@@ -17,12 +17,12 @@ Django (1.8.7) with lots of pics/videos.
 
 ##Updates 
 + from https://github.com/epic-math/sfvue2.git
-+ Django version upgrade from 1.5.4 to 1.8.7
++ Django version upgrade from 1.5.4 to 1.9
 
 
 ##Tools/Apps Used
 
-+ [Django 1.8.7](https://www.djangoproject.com/)
++ [Django 1.9](https://www.djangoproject.com/)
 + [Twitter Bootstrap](http://getbootstrap.com/)
 + [django-registration](https://django-registration.readthedocs.org/en/latest/)
 + [django-guardian](https://github.com/lukaszb/django-guardian)
