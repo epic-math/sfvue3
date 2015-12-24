@@ -3,7 +3,7 @@
 
 Django (1.8.7) with lots of pics/videos.
 
-##Version 1 features
+##Version 3 features
 
 + Users can share any link of interesting blog post or video or tutorial in the Resource Section.
 + Resources are divided in topics around 3 levels(beginner, intermediate, advanced).
@@ -11,12 +11,14 @@ Django (1.8.7) with lots of pics/videos.
 + Users can save interesting resources to their profile for later use.
 + Topic follow button allow users to follow topics to get interesting news, new resources.
 + Explore section lets view the ongoind activity of the site at a glance.
-
-##Later features
-
 + Moderators and more active users will be able to edit wiki like content in the topics and resources.
 + Tracks will be introduced to give teachers/tutors ability to create content for the their students and distribute them.
 + Users can follow other interesting users.
++ 
+##Updates from https://github.com/epic-math/sfvue2.git
+
++ Django version upgrade from 1.5.4 to 1.8.7
++ Broken features (Registration etc.)
 
 
 ##Tools/Apps Used
