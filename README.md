@@ -1,7 +1,7 @@
 #sfvue    
 ----
 
-Django with lots of pics/videos.
+Django (1.8.7) with lots of pics/videos.
 
 ##Version 1 features
 
@@ -21,7 +21,7 @@ Django with lots of pics/videos.
 
 ##Tools/Apps Used
 
-+ [Django 1.5.4](https://www.djangoproject.com/)
++ [Django 1.8.7](https://www.djangoproject.com/)
 + [Twitter Bootstrap](http://getbootstrap.com/)
 + [django-registration](https://django-registration.readthedocs.org/en/latest/)
 + [django-guardian](https://github.com/lukaszb/django-guardian)
@@ -40,3 +40,6 @@ See INSTALL.md for full installation instructions.
 ## LICENSE
 
 This project is licensed under [MIT License](http://mit-license.org). See LICENSE.txt
+
+## NOTE
+Continued from previous repository - https://github.com/epic-math/sfvue2.git
