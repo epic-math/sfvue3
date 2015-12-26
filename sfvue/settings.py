@@ -92,13 +92,11 @@ USE_TZ = False
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
-#    'django.contrib.staticfiles.finders.DefaultStorageFinder',
 )
 
 TEMPLATE_LOADERS = (
     'django.template.loaders.filesystem.Loader',
     'django.template.loaders.app_directories.Loader',
-#     'django.template.loaders.eggs.Loader',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -181,14 +179,6 @@ RATINGS_VOTES_PER_IP = 2000 #TODO all votes are essentially from 127.0.0.1. This
 #Disqus Settings
 DISQUS_API_KEY = 'lTuOXBAfTK3symHWvi7cZHgcYipkL32BoSud7f0H4gl4lfVhVw0HCcbcmiu1rWJY'
 DISQUS_WEBSITE_SHORTNAME = 'sfvue'
-
-
-#EMAIL_HOST = 'mail.bogotobogo.com'
-#EMAIL_HOST_USER = 'k@bogotobogo.com'
-#EMAIL_HOST_PASSWORD = 'HK*UY(!4a'
-#EMAIL_PORT = 26
-#EMAIL_USE_TLS = True
-
 
 #Import Local and Prod settings
 try:

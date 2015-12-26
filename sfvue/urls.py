@@ -14,7 +14,6 @@ urlpatterns = patterns('',
     url(r'^$', HomeView.as_view(), name='page_home'),
     url(r'^explore/$', explore_home, name='explore_home'),
     url(r'^admin/$', RedirectView.as_view(url='/', permanent=True)),
-    #url(r'^admin/', include(admin.site.urls)),
     url(r'^explore/resource/all/$', RecentResourceListView.as_view(), name='explore_recent_resources'),
     url(r'^explore/domain/all/$', PopularDomainListView.as_view(), name='explore_all_domains'),
     url(r'^explore/topic/all/$', PopularTopicListView.as_view(), name='explore_all_topics'),
@@ -30,11 +29,9 @@ urlpatterns += patterns('',
     url(r'^search/', include('haystack.urls')),
 )
 
-
 urlpatterns += patterns('',
     (r'^sitemap\.xml$', 'django.contrib.sitemaps.views.sitemap', {'sitemaps': sitemaps}),
 )
-
 
 urlpatterns += patterns('django.contrib.flatpages.views',
     url(r'^about/$', 'flatpage', {'url': '/about/'}, name='page_about'),
